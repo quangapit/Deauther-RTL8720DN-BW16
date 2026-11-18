@@ -106,6 +106,4 @@ Các chức năng giao diện bao gồm:
 
 ## 📸 Ảnh Demo
 
-```
-đang cập nhật
-```
+![Ảnh](https://cdn.upanhlaylink.com/i/k1Ryb3LW.jpg)
