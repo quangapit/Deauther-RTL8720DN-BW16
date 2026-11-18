@@ -1,6 +1,6 @@
-# 📡 RTL8720DN WiFi Scanner – BW16
+# 📡 RTL8720DN Deauther – BW16
 
-Hệ thống quét và phân tích mạng WiFi băng tần kép (2.4GHz & 5GHz) chạy trên bo mạch **BW16 (chip RTL8720DN)**, tích hợp giao diện điều khiển Web trực quan được Việt hóa hoàn toàn.
+Code deauther này hỗ trợ phá sóng (2.4GHz & 5GHz) chạy trên bo mạch **BW16 (chip RTL8720DN)**, 
 
 ![Platform](https://img.shields.io/badge/Platform-Arduino%20%2F%20RTL8720DN%20SDK-blue)
 ![Hardware](https://img.shields.io/badge/Board-BW16%20(RTL8720DN)-green)
@@ -9,26 +9,14 @@ Hệ thống quét và phân tích mạng WiFi băng tần kép (2.4GHz & 5GHz) 
 
 ---
 
-## 📋 Mục Lục
-- [Thông Tin Các Phiên Bản](#-thông-tin-các-phiên-bản)
-- [Thông Tin Kết Nối](#-thông-tin-kết-nối)
-- [Tính Năng Nổi Bật](#-tính-năng-nổi-bật)
-- [Thông Tin Phần Cứng & Sơ Đồ Chân](#-thông-tin-phần-cứng--sơ-đồ-chân)
-- [Hướng Dẫn Biên Dịch & Nạp Code](#-hướng-dẫn-biên-dịch--nạp-code)
-- [Ảnh Demo](#-ảnh-demo)
-- [Tuyên Bố Miễn Trừ Trách Nhiệm (Disclaimer)](#-tuyên-bố-miễn-trừ-trách-nhiệm-disclaimer)
-- [Giấy Phép (License)](#-giấy-phép-license)
-
----
-
 ## 🚀 Thông Tin Các Phiên Bản
 
-### **Ver 1.0.0**
 * **Giao diện Việt hóa:** Tối ưu khả năng quản lý và hiển thị thông tin các mạng WiFi được phát hiện xung quanh.
-* **WiFi Dual Band:** Hỗ trợ quét đồng thời hai băng tần `2.4GHz` và `5GHz`, hiển thị đầy đủ tên WiFi (SSID), địa chỉ BSSID, kênh hoạt động và cường độ tín hiệu (RSSI).
+* **WiFi Dual Band:** Hỗ trợ quét hai băng tần `2.4GHz` và `5GHz`, hiển thị đầy đủ tên WiFi (SSID), địa chỉ BSSID, kênh hoạt động và cường độ tín hiệu (RSSI).
 * **Smart Pairing:** Tự động nhận diện và ghép cặp các mạng WiFi có cùng tên cơ sở nhưng phát trên hai băng tần khác nhau.
 * **RSSI Distance:** Ước tính khoảng cách tương đối dựa trên cường độ tín hiệu WiFi để đánh giá độ mạnh/yếu.
-* **LED Status Indicator:** Tối ưu hệ thống LED RGB thông báo trực quan 3 trạng thái hoạt động (Đỏ, Xanh dương, Xanh lá).
+* **Set Time Stop Attack:** Tính năng thiết lập thời gian dừng hoạt động.
+* **Mod:** Hỗ trợ các chế độ Deauther và Beacon phục vụ thử nghiệm bảo mật WiFi trong môi trường được phép.
 * **Web Interface:** Điều khiển trực tiếp qua trình duyệt trên điện thoại hoặc máy tính mà không cần cài đặt ứng dụng bên thứ ba.
 
 > *Lưu ý: Thông tin phiên bản sẽ tiếp tục được cập nhật khi có những thay đổi mới trong mã nguồn.*
@@ -50,55 +38,77 @@ Sau khi kết nối thành công, mở trình duyệt web và truy cập địa 
 
 ## ✨ Tính Năng Nổi Bật
 
-### 1. WiFi Scanner (Quét Mạng Băng Tần Kép)
-Quét và liệt kê chi tiết toàn bộ các Access Point trong khu vực với các thông số:
-* **SSID:** Tên mạng WiFi.
-* **BSSID:** Địa chỉ MAC vật lý của thiết bị phát.
-* **Channel:** Kênh tần số WiFi đang hoạt động.
-* **RSSI:** Cường độ tín hiệu thu được (đơn vị `dBm`).
-* **Distance:** Khoảng cách ước tính từ thiết bị tới nguồn phát dựa trên chỉ số RSSI.
-* **Frequency:** Phân loại tự động băng tần `2.4GHz` hoặc `5GHz`.
+### 1. WiFi Scanner – Quét Mạng Băng Tần Kép
 
-### 2. Smart Pairing 2.4GHz / 5GHz
-Hệ thống tự động nhận diện và liên kết các mạng WiFi thuộc cùng một router dựa trên tên gốc và các hậu tố phân biệt băng tần phổ biến như:
+Hỗ trợ quét và hiển thị thông tin các mạng WiFi xung quanh trên cả hai băng tần `2.4GHz` và `5GHz`, bao gồm:
+
+* **SSID:** Tên mạng WiFi.
+* **BSSID:** Địa chỉ MAC của thiết bị phát.
+* **Channel:** Kênh WiFi đang hoạt động.
+* **RSSI:** Cường độ tín hiệu thu được (dBm).
+* **Distance:** Ước tính khoảng cách tương đối dựa trên cường độ tín hiệu.
+* **Frequency:** Tự động phân loại băng tần `2.4GHz` hoặc `5GHz`.
+
+### 2. Smart Pairing – Tự Động Ghép Cặp WiFi
+
+Tự động nhận diện và ghép cặp các mạng WiFi có cùng tên cơ sở nhưng hoạt động trên hai băng tần khác nhau.
+
+Hỗ trợ nhận diện các hậu tố phổ biến:
+
 * `-2.4GHz` / `-5GHz`
 * `-2.4G` / `-5G`
 * `_2.4G` / `_5G`
 
-### 3. Hệ Thống Chỉ Thị LED RGB
-Mạch sử dụng đèn LED RGB tích hợp trên bo mạch BW16 để phản hồi trạng thái vật lý theo thời gian thực:
+### 3. RSSI Distance – Ước Tính Khoảng Cách
 
-| Màu LED | Chân GPIO | Trạng thái hoạt động |
-| :--- | :---: | :--- |
-| 🔴 **Đỏ** | `PA12` | Hoạt động đặc biệt |
-| 🔵 **Xanh dương** | `PA13` | Đang thực hiện quét WiFi |
-| 🟢 **Xanh lá** | `PA14` | Trạng thái chờ (Idle) |
+Phân tích cường độ tín hiệu WiFi (RSSI) để đưa ra khoảng cách tương đối giữa thiết bị BW16 và nguồn phát.
 
-> **Lưu ý phần cứng:** Hệ thống LED trên BW16 hoạt động ở chế độ **Active LOW** (mức logic `LOW` sẽ bật LED và mức `HIGH` sẽ tắt LED).
+Tính năng giúp người dùng đánh giá:
 
-### 4. Giao Diện Quản Lý Web
-Giao diện thiết kế đáp ứng (Responsive), hiển thị tốt trên cả màn hình điện thoại và máy tính:
-* Bảng danh sách mạng WiFi trực quan, dễ theo dõi.
-* Hiển thị chi tiết BSSID, băng tần, kênh, RSSI và khoảng cách ước tính.
-* Đồng bộ hiển thị trạng thái đèn LED ngay trên giao diện.
-* Nút thao tác quét lại (Rescan) mạng WiFi nhanh chóng.
+* Mức độ mạnh hoặc yếu của tín hiệu WiFi.
+* Khoảng cách tương đối giữa thiết bị quét và Access Point.
+* So sánh cường độ tín hiệu giữa các mạng được phát hiện.
+
+> *Lưu ý: Khoảng cách chỉ mang tính ước tính, không phải kết quả đo vị trí chính xác.*
+
+### 4. Set Time Stop Attack – Thiết Lập Thời Gian Dừng
+
+Cho phép cấu hình thời gian hoạt động và thời điểm dừng của chế độ kiểm thử, giúp quản lý thời lượng hoạt động của thiết bị.
+
+### 5. Mod – Deauther & Beacon
+
+Hỗ trợ các chế độ hoạt động:
+
+* **Deauther:** Chức năng kiểm thử bảo mật WiFi trong môi trường được phép.
+* **Beacon:** Chế độ phát tín hiệu Beacon phục vụ thử nghiệm và nghiên cứu mạng WiFi.
+
+### 6. Web Interface – Giao Diện Quản Lý Web
+
+Điều khiển và theo dõi thiết bị trực tiếp thông qua trình duyệt trên điện thoại hoặc máy tính, không cần cài đặt ứng dụng bên thứ ba.
+
+Các chức năng giao diện bao gồm:
+
+* Hiển thị danh sách mạng WiFi được phát hiện.
+* Theo dõi SSID, BSSID, băng tần, kênh, RSSI và khoảng cách ước tính.
+* Hiển thị trạng thái đèn LED trực tiếp trên giao diện.
+* Hỗ trợ thiết kế Responsive, tương thích với điện thoại và máy tính.
+* Nút **Rescan** giúp quét lại các mạng WiFi xung quanh nhanh chóng.
+
+---
 
 ## 💻 Hướng Dẫn Biên Dịch & Nạp Code
 
-1. **Chuẩn bị phần cứng:** Bo mạch **BW16** sử dụng chip **RTL8720DN** và cáp dữ liệu Micro-USB / Type-C (tùy phiên bản board).
-2. **Cài đặt môi trường:** Tải và cài đặt **Arduino IDE**.
-3. **Cài đặt SDK & Thư viện:** Thêm Board Manager URL của Realtek AmebaD (`RTL8720DN`) vào Arduino IDE và cài đặt phiên bản SDK tương thích.
-4. **Mở mã nguồn:** Mở file `.ino` của dự án trong Arduino IDE.
-5. **Kiểm tra cấu hình:** Đối chiếu lại định nghĩa chân LED (`PA12`, `PA13`, `PA14`) và thông số cấu hình WiFi AP trong code.
-6. **Biên dịch & Nạp (Upload):** Chọn đúng Board **Ai-Thinker BW16 (RTL8720DN)**, chọn cổng COM tương ứng, đưa mạch về chế độ Upload (nếu cần) và nhấn **Upload**.
-
-> **Lưu ý:** Cần sử dụng đúng phiên bản AmebaD SDK và các thư viện đi kèm theo yêu cầu của mã nguồn để tránh lỗi xung đột khi biên dịch.
+```bash
+đang cập nhật
+```
 
 ---
 
 ## 📸 Ảnh Demo
 
+```
 đang cập nhật
+```
 
 
 ```markdown
