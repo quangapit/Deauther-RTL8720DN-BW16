@@ -109,8 +109,3 @@ Các chức năng giao diện bao gồm:
 ```
 đang cập nhật
 ```
-
-
-```markdown
-![Web Interface Demo](images/web-demo.png)
-![Hardware Setup](images/bw16-led.png)
