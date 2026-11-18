@@ -23,6 +23,14 @@ Code deauther này hỗ trợ phá sóng (2.4GHz & 5GHz) chạy trên bo mạch 
 
 ---
 
+
+**Hỗ trợ nếu không thể nạp code**
+
+**Liên Hệ Với Mình Qua:** 
+- Telegram: [@quangapi](https://t.me/quangapi)
+
+---
+
 ## 📶 Thông Tin Kết Nối
 
 Sau khi cấp nguồn cho mạch **BW16**, thiết bị sẽ tự động phát một điểm truy cập WiFi (Access Point) riêng. Hãy kết nối vào mạng này theo thông tin dưới đây:
@@ -102,6 +110,11 @@ Các chức năng giao diện bao gồm:
 đang cập nhật
 ```
 
+**Nếu lỗi hãy thử install board package trên arduino**
+
+```
+https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek_amebad_index.json
+```
 ---
 
 ## 📸 Ảnh Demo
