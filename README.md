@@ -108,10 +108,10 @@ Các chức năng giao diện bao gồm:
 <table>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/3181cbc6-ebf8-43e4-ace5-2be408c59f40" width="400" alt="Ảnh 1">
+      <img src="https://cdn.upanhlaylink.com/i/k1Ryb3LW.jpg" width="400" alt="Ảnh 1">
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/f7289225-d49f-4578-af81-18901420b9a9" width="400" alt="Ảnh 2">
+      <img src="https://cdn.upanhlaylink.com/i/k1Ryb3LW.jpg" width="400" alt="Ảnh 2">
     </td>
   </tr>
 </table>
