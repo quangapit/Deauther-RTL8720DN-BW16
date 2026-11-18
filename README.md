@@ -105,5 +105,4 @@ Các chức năng giao diện bao gồm:
 ---
 
 ## 📸 Ảnh Demo
-
-![Ảnh](https://cdn.upanhlaylink.com/i/k1Ryb3LW.jpg)
+<img src="https://cdn.upanhlaylink.com/i/k1Ryb3LW.jpg" width="400" align="left" alt="Ảnh Demo">
