@@ -10,7 +10,7 @@ Code deauther này hỗ trợ phá sóng (2.4GHz & 5GHz) chạy trên bo mạch 
 ---
 
 ## 🚀 Thông Tin Các Phiên Bản
-**1.0.0**
+**Ver 1.0.0:**
 * **Giao diện Việt hóa:** Tối ưu khả năng quản lý và hiển thị thông tin các mạng WiFi được phát hiện xung quanh.
 * **WiFi Dual Band:** Hỗ trợ quét hai băng tần `2.4GHz` và `5GHz`, hiển thị đầy đủ tên WiFi (SSID), địa chỉ BSSID, kênh hoạt động và cường độ tín hiệu (RSSI).
 * **Smart Pairing:** Tự động nhận diện và ghép cặp các mạng WiFi có cùng tên cơ sở nhưng phát trên hai băng tần khác nhau.
