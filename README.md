@@ -19,6 +19,10 @@ Code deauther này hỗ trợ phá sóng (2.4GHz & 5GHz) chạy trên bo mạch 
 * **Mod:** Hỗ trợ các chế độ Deauther và Beacon phục vụ thử nghiệm bảo mật WiFi trong môi trường được phép.
 * **Web Interface:** Điều khiển trực tiếp qua trình duyệt trên điện thoại hoặc máy tính mà không cần cài đặt ứng dụng bên thứ ba.
 
+**Ver 1.2.0:**
+**Tối ưu code:** Code được tối ưu lại
+**Cho phép theo cấu hình:** Từ phiên bản này cho phép bạn thay ssid và pass theo ý muốn hoặc có thể dùng cấu hình mặt định nếu muốn
+
 > *Lưu ý: Thông tin phiên bản sẽ tiếp tục được cập nhật khi có những thay đổi mới trong mã nguồn.*
 
 ---
