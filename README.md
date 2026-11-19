@@ -108,11 +108,9 @@ Các chức năng giao diện bao gồm:
 
 ---
 
-## 💻 Hướng Dẫn Biên Dịch & Nạp Code
+## 💻 Hướng Dẫn & Nạp Code
 
-```bash
-đang cập nhật
-```
+- Video: [https://www.youtube.com/embed/y3lydWgAuYs](https://www.youtube.com/embed/y3lydWgAuYs)
 
 **Nếu lỗi hãy thử install board package trên arduino**
 
