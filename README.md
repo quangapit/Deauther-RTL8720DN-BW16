@@ -123,10 +123,10 @@ https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realte
 <table>
   <tr>
     <td>
-      <img src="https://cdn.upanhlaylink.com/i/k1Ryb3LW.jpg" width="400" alt="Ảnh 1">
+      <img src="https://chodev.pro/images/1b111422-2916-46c7-8f07-216ff73f4d59.webp" width="400" alt="Ảnh 1">
     </td>
     <td>
-      <img src="https://cdn.upanhlaylink.com/i/k1Ryb3LW.jpg" width="400" alt="Ảnh 2">
+      <img src="https://chodev.pro/images/a5778d78-cdfe-4607-b3a3-2d455730e28e.webp" width="400" alt="Ảnh 2">
     </td>
   </tr>
 </table>
