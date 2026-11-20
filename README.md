@@ -21,7 +21,7 @@ Code deauther này hỗ trợ phá sóng (2.4GHz & 5GHz) chạy trên bo mạch 
 
 **Ver 1.2.0:**
 * **Tối ưu code:** Code được tối ưu lại
-* **Cho phép theo cấu hình:** Từ phiên bản này cho phép bạn thay ssid và pass theo ý muốn hoặc có thể dùng cấu hình mặt định nếu muốn
+* **Cho phép theo ý muốn cấu hình:** Từ phiên bản này cho phép bạn thay ssid và pass theo ý muốn hoặc có thể dùng cấu hình mặt định nếu muốn
 
 > *Lưu ý: Thông tin phiên bản sẽ tiếp tục được cập nhật khi có những thay đổi mới trong mã nguồn.*
 
