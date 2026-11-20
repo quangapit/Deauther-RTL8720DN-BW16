@@ -91,8 +91,8 @@ Cho phép cấu hình thời gian hoạt động và thời điểm dừng của
 
 Hỗ trợ các chế độ hoạt động:
 
-* **Deauther:** Chức năng kiểm thử bảo mật WiFi trong môi trường được phép.
-* **Beacon:** Chế độ phát tín hiệu Beacon phục vụ thử nghiệm và nghiên cứu mạng WiFi.
+* **Deauther:** Phá sóng wifi xung quanh nó phát hiện 
+* **Beacon:** Chế độ phát tín hiệu Beacon spam ssid wifi
 
 ### 6. Web Interface – Giao Diện Quản Lý Web
 
