@@ -103,7 +103,7 @@ Các chức năng giao diện bao gồm:
 * Hiển thị danh sách mạng WiFi được phát hiện.
 * Theo dõi SSID, BSSID, băng tần, kênh, RSSI và khoảng cách ước tính.
 * Hiển thị trạng thái đèn LED trực tiếp trên giao diện.
-* Hỗ trợ thiết kế Responsive, tương thích với điện thoại và máy tính.
+* Phá sóng wifi và spam beacon
 * Nút **Rescan** giúp quét lại các mạng WiFi xung quanh nhanh chóng.
 
 ---
