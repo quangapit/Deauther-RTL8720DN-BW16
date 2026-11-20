@@ -9,6 +9,12 @@ Code deauther này hỗ trợ phá sóng (2.4GHz & 5GHz) chạy trên bo mạch 
 
 ---
 
+* **Link sản phẩm:**
+* **Esp32 có anten:**[Nhấn vào để mua](https://hoantien.vn/go/CWZw07XYms9)
+* **Esp32 không anten:** [Nhấn vào để mua](https://hoantien.vn/go/CWZw07XYms9)
+
+---
+
 ## 🚀 Thông Tin Các Phiên Bản
 **Ver 1.0.0:**
 * **Giao diện Việt hóa:** Tối ưu khả năng quản lý và hiển thị thông tin các mạng WiFi được phát hiện xung quanh.
