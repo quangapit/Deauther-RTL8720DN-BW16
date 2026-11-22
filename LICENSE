@@ -1,32 +1,37 @@
-LICENSE MIT
-
 Copyright (c) 2026 QuangAPI
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to use
-and view the Software for personal and non-commercial purposes, subject to
-the following conditions:
+All Rights Reserved.
 
-1. MODIFICATION PROHIBITED
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the "Software"),
+to use the Software for personal and commercial purposes, subject to the
+following conditions:
+
+1. FREE USE
+   You are permitted to use the Software free of charge for personal
+   and commercial purposes.
+
+2. MODIFICATION PROHIBITED
    You are NOT permitted to modify, alter, adapt, translate, or create
    derivative works of the Software or any portion thereof.
 
-2. REDISTRIBUTION
+3. REDISTRIBUTION
    You are NOT permitted to redistribute, republish, sublicense, or sell
-   the Software without prior written permission from the copyright holder.
+   the Software or its source code without prior written permission
+   from the copyright holder.
 
-3. COPYRIGHT NOTICE
-   The above copyright notice and this permission notice must be included
-   in all copies or substantial portions of the Software.
+4. COPYRIGHT NOTICE
+   This copyright notice and permission notice must be included in
+   all permitted copies of the Software.
 
-4. OWNERSHIP
+5. OWNERSHIP
    All rights, title, and interest in the Software remain the exclusive
    property of QuangAPI.
 
-5. NO WARRANTY
+6. NO WARRANTY
    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
