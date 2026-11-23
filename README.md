@@ -105,6 +105,7 @@ Hỗ trợ các chế độ hoạt động:
 
 * **Deauther:** Phá sóng wifi xung quanh nó phát hiện 
 * **Beacon:** Chế độ phát tín hiệu Beacon spam ssid wifi
+* **Deauther + Beacon:** Cho phép vừa ngắt kết nối wifi và tạo nhiều tên wifi của wifi đang tấn công
 
 ### 6. Web Interface – Giao Diện Quản Lý Web
 
