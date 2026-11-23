@@ -49,7 +49,8 @@ https://hoantien.vn/go/01ioYQXtu6l)
 
 ## 📶 Thông Tin Kết Nối
 
-* **Sau khi cấp nguồn cho mạch **BW16**, thiết bị sẽ tự động phát một điểm truy cập WiFi (Access Point) riêng. Hãy kết nối vào mạng này theo thông tin dưới đây:**
+* **Sau khi cấp nguồn cho mạch **BW16**, thiết bị sẽ tự động phát một điểm truy cập WiFi (Access Point) riêng.**
+* **Hãy kết nối vào mạng này theo thông tin dưới đây:**
 * **( Từ phiên bản Ver 1.2.0 SSID và PASS sẽ được đặt theo ý muốn của bạn )**
 * **SSID:** `Deauther_2-4_5GHZ`
 * **Password:** `123456789`
