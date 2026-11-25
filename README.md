@@ -18,6 +18,11 @@ https://hoantien.vn/go/01ioYQXtu6l)
 ---
 
 ## 🚀 Thông Tin Các Phiên Bản
+
+**Ver 0:**
+* **Code dao diện vẫn đầy đủ:** Code nhẹ hơn
+* **Chỉ một chức năng**: Phiên bản này chỉ có một chức năng là deauther cho những người dùng chỉ muốn dùng chức năng phá sóng wifi
+
 **Ver 1.0.0:**
 * **Giao diện Việt hóa:** Tối ưu khả năng quản lý và hiển thị thông tin các mạng WiFi được phát hiện xung quanh.
 * **WiFi Dual Band:** Hỗ trợ quét hai băng tần `2.4GHz` và `5GHz`, hiển thị đầy đủ tên WiFi (SSID), địa chỉ BSSID, kênh hoạt động và cường độ tín hiệu (RSSI).
