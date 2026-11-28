@@ -39,7 +39,7 @@ https://hoantien.vn/go/01ioYQXtu6l)
 * **Tối ưu code:** giảm phân mảnh bộ nhớ (String), đọc request HTTP vào buffer char cố định, viết phản hồi trực tiếp vào WiFiClient, tính khoảng cách RSSI 1 lần khi quét và lưu lại sử dụng lại, getCurrentBuildId viết vào buffer char thay vì tạo String mới, parseRequest truyền theo tham chiếu const.
 * **Làm lại tính năng Beacon:** chế độ Beacon thuần spam hàng loạt tên WiFi tùy chỉnh (mỗi tên có số thứ tự, số beacon cố định 100), chế Deauther + Beacon đồng thời deauth mục tiêu và tạo beacon trùng tên mục tiêu để làm tràn danh sách WiFi tối ưu hơn
 
-* * **Ver 1.2.7:**
+* **Ver 1.2.7:**
 * **Tối ưu code:** Giới hạn tốc độ gửi frame (tránh burst quá tải anten), tối ưu deauth frames mỗi vòng loop, tối ưu beacon frames mỗi vòng loop, tối ưu mục tiêu deauth xử lý mỗi vòng loop
 
 > *Lưu ý: Thông tin phiên bản sẽ tiếp tục được cập nhật khi có những thay đổi mới trong mã nguồn.*
