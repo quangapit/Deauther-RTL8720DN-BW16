@@ -5,7 +5,7 @@ Code deauther này hỗ trợ phá sóng (2.4GHz & 5GHz) chạy trên bo mạch 
 ![Platform](https://img.shields.io/badge/Platform-Arduino%20%2F%20RTL8720DN%20SDK-blue)
 ![Hardware](https://img.shields.io/badge/Board-BW16%20(RTL8720DN)-green)
 ![Version](https://img.shields.io/badge/Version-x.x.x-orange)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![License](https://img.shields.io/badge/License-lightgrey)
 
 ---
 
